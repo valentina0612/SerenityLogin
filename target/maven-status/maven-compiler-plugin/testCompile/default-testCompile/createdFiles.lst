@@ -1,0 +1,5 @@
+Moodle\SendLoginInfo.class
+Moodle\SendPassword.class
+Moodle\LoginTest.class
+Moodle\SendUsername.class
+Moodle\NavigateLogin.class

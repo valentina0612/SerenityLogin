@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: Moodle.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.13 s <<< FAILURE! -- in Moodle.LoginTest
+Moodle.LoginTest.positiveLoginTest -- Time elapsed: 5.027 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "https://micampusvirtual.usbcali.edu.co/my/courses.php"
+ but was: "https://micampusvirtual.usbcali.edu.co/login/index.php"
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at Moodle.LoginTest.lambda$0(LoginTest.java:31)
+	at net.serenitybdd.core.Serenity.reportThat(Serenity.java:365)
+	at Moodle.LoginTest.positiveLoginTest(LoginTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
