@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Moodle.LoginTest" skipped="0" tests="1" time="5.04" timestamp="2024-06-13 06:36:37"><testcase classname="Moodle.LoginTest" name="Positive login test"><failure message="&#13;&#10;expected: &quot;https://micampusvirtual.usbcali.edu.co/my/courses.php&quot;&#13;&#10; but was: &quot;https://micampusvirtual.usbcali.edu.co/login/index.php&quot;" type="org.opentest4j.AssertionFailedError">&#13;
-expected: "https://micampusvirtual.usbcali.edu.co/my/courses.php"&#13;
- but was: "https://micampusvirtual.usbcali.edu.co/login/index.php"</failure><system-err>&#13;
-expected: "https://micampusvirtual.usbcali.edu.co/my/courses.php"&#13;
- but was: "https://micampusvirtual.usbcali.edu.co/login/index.php"&#13;
-Moodle.LoginTest.lambda$0(LoginTest.java:31)&#13;
-Moodle.LoginTest.positiveLoginTest(LoginTest.java:30)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Moodle.LoginTest" skipped="0" tests="1" time="8.52" timestamp="2024-06-13 07:21:50"><testcase classname="Moodle.LoginTest" name="Positive login test"/></testsuite>

@@ -21,8 +21,8 @@ public class LoginTest {
     @Test
     void positiveLoginTest() {
         navigate.moodleLoginPage();
-        username.loginUsername(System.getProperty("username"));
-        password.loginPassword(System.getProperty("password"));
+        username.loginUsername("username Moodle");
+        password.loginPassword("password Moodle");
         login.login();
 
         String currentUrl = driver.getCurrentUrl();
@@ -34,8 +34,8 @@ public class LoginTest {
     @Test
     void negativeLoginTest() {
         navigate.moodleLoginPage();
-        username.loginUsername(System.getProperty("username"));
-        password.loginPassword("1234567");
+        username.loginUsername("username");
+        password.loginPassword("password");
         login.login();
 
         String currentUrl = driver.getCurrentUrl();

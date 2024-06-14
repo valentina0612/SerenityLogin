@@ -1,0 +1,205 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html dir="ltr" lang="es" xml:lang="es" class="yui3-js-enabled"&gt;<br/>
+ &lt;head&gt;<br/>
+  &lt;title&gt;MiCampusVirtual: Entrar al sitio&lt;/title&gt;<br/>
+  &lt;link rel="shortcut icon" href="https://micampusvirtual.usbcali.edu.co/pluginfile.php/1/theme_moove/favicon/1718247622/favicon.ico"&gt;<br/>
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;<br/>
+  &lt;meta name="keywords" content="moodle, MiCampusVirtual: Entrar al sitio"&gt;<br/>
+  &lt;link rel="stylesheet" type="text/css" href="https://micampusvirtual.usbcali.edu.co/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple.css"&gt;<br/>
+  &lt;script charset="utf-8" id="yui_3_17_2_1_1718322791268_8" src="https://micampusvirtual.usbcali.edu.co/theme/yui_combo.php?m/1718247623/core/event/event-debug.js&amp;m/1718247623/filter_mathjaxloader/loader/loader-debug.js" async&gt;&lt;/script&gt;<br/>
+  &lt;script charset="utf-8" id="yui_3_17_2_1_1718322791268_20" src="https://micampusvirtual.usbcali.edu.co/theme/yui_combo.php?3.17.2/event-mousewheel/event-mousewheel.js&amp;3.17.2/event-resize/event-resize.js&amp;3.17.2/event-hover/event-hover.js&amp;3.17.2/event-touch/event-touch.js&amp;3.17.2/event-move/event-move.js&amp;3.17.2/event-flick/event-flick.js&amp;3.17.2/event-valuechange/event-valuechange.js&amp;3.17.2/event-tap/event-tap.js" async&gt;&lt;/script&gt;<br/>
+  &lt;script id="firstthemesheet" type="text/css"&gt;/** Required in order to fix style inclusion problems in IE with YUI **/&lt;/script&gt;<br/>
+  &lt;link rel="stylesheet" type="text/css" href="https://micampusvirtual.usbcali.edu.co/theme/styles.php/moove/1718247622_1717177847/all"&gt;<br/>
+  &lt;script&gt;<br/>
+//&lt;![CDATA[<br/>
+var M = {}; M.yui = {};<br/>
+M.pageloadstarttime = new Date();<br/>
+M.cfg = {"wwwroot":"https:\/\/micampusvirtual.usbcali.edu.co","homeurl":{},"sesskey":"JdjSuDBRHH","sessiontimeout":"10800","sessiontimeoutwarning":1200,"themerev":"1718247622","slasharguments":1,"theme":"moove","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1718247623","admin":"admin","svgicons":true,"usertimezone":"Am\u00e9rica\/Bogot\u00e1","courseId":1,"courseContextId":2,"contextid":1,"contextInstanceId":0,"langrev":1718269506,"templaterev":"1718247623","developerdebug":true};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};<br/>
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}<br/>
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};<br/>
+YUI_config = {"debug":true,"base":"https:\/\/micampusvirtual.usbcali.edu.co\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/micampusvirtual.usbcali.edu.co\/theme\/yui_combo.php?","combine":true,"filter":"RAW","insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/micampusvirtual.usbcali.edu.co\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/micampusvirtual.usbcali.edu.co\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/micampusvirtual.usbcali.edu.co\/theme\/yui_combo.php?m\/1718247623\/","combine":true,"comboBase":"https:\/\/micampusvirtual.usbcali.edu.co\/theme\/yui_combo.php?","ext":false,"root":"m\/1718247623\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":"DEBUG","modules":{"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-broker":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-imports":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-rooms":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-recordings":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_checklist-linkselect":{"requires":["node","event-valuechange"]},"moodle-mod_customcert-rearrange":{"requires":["dd-delegate","dd-drag"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_workflow-comments":{"requires":["base","overlay","moodle-core-formautosubmit","moodle-core-notification"]},"moodle-block_workflow-todolist":{"requires":["base","node","event"]},"moodle-block_workflow-userinfo":{"requires":["base","event","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-format_trail-trailkeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_fullscreen-button":{"requires":["event-resize","moodle-editor_atto-plugin"]},"moodle-atto_generico-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-beautify":{},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_teamsmeeting-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_wiris-button":{"requires":["moodle-editor_atto-plugin","get"]},"moodle-atto_wordimport-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/micampusvirtual.usbcali.edu.co\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/micampusvirtual.usbcali.edu.co\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1718247623\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/micampusvirtual.usbcali.edu.co\/lib\/javascript.php\/1718247623\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/micampusvirtual.usbcali.edu.co\/lib\/javascript.php\/1718247623\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.9\/MathJax.js?delayStartupUntil=configured"}}};<br/>
+M.yui.loader = {modules: {}};<br/>
+<br/>
+//]]&gt;<br/>
+&lt;/script&gt;<br/>
+  &lt;meta name="moodle-validation" content="e24c9809919c9509ed59479b4f156b11"&gt;&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;<br/>
+  &lt;script async src="https://www.googletagmanager.com/gtag/js?id=G-46GTBVX2GX"&gt;&lt;/script&gt;<br/>
+  &lt;script&gt;<br/>
+  window.dataLayer = window.dataLayer || [];<br/>
+  function gtag(){dataLayer.push(arguments);}<br/>
+  gtag('js', new Date());<br/>
+<br/>
+  gtag('config', 'G-46GTBVX2GX');<br/>
+&lt;/script&gt;<br/>
+  &lt;meta name="robots" content="noindex"&gt;<br/>
+  &lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;<br/>
+  &lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""&gt;<br/>
+  &lt;link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&amp;display=swap" rel="stylesheet"&gt;<br/>
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br/>
+  &lt;script type="text/javascript" charset="utf-8" async data-requirecontext="_" data-requiremodule="core/first" src="https://micampusvirtual.usbcali.edu.co/lib/requirejs.php/1718247623/core/first.js"&gt;&lt;/script&gt;<br/>
+  &lt;script type="text/x-mathjax-config"&gt;<br/>
+MathJax.Hub.Config({<br/>
+    config: ["Accessible.js", "Safe.js"],<br/>
+    errorSettings: { message: ["!"] },<br/>
+    skipStartupTypeset: true,<br/>
+    messageStyle: "none"<br/>
+});<br/>
+&lt;/script&gt;<br/>
+  &lt;script type="text/javascript" charset="utf-8" async data-requirecontext="_" data-requiremodule="core_form/events" src="https://micampusvirtual.usbcali.edu.co/lib/requirejs.php/1718247623/core_form/events.js"&gt;&lt;/script&gt;<br/>
+  &lt;script type="text/javascript" charset="utf-8" async data-requirecontext="_" data-requiremodule="jquery" src="https://micampusvirtual.usbcali.edu.co/lib/javascript.php/1718247623/lib/jquery/jquery-3.6.0.min.js"&gt;&lt;/script&gt;<br/>
+ &lt;/head&gt;<br/>
+ &lt;body id="page-login-index" class="format-site  path-login chrome dir-ltr lang-es yui-skin-sam yui3-skin-sam micampusvirtual-usbcali-edu-co pagelayout-login course-1 context-1 notloggedin moove-login jsenabled"&gt;<br/>
+  &lt;div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"&gt;&lt;/div&gt;<br/>
+  &lt;div id="page-wrapper"&gt;<br/>
+   &lt;div&gt;&lt;a class="sr-only sr-only-focusable" href="#maincontent"&gt;Salta al contenido principal&lt;/a&gt;<br/>
+   &lt;/div&gt;<br/>
+   &lt;script src="https://micampusvirtual.usbcali.edu.co/lib/javascript.php/1718247623/lib/polyfills/polyfill.js"&gt;&lt;/script&gt;<br/>
+   &lt;script src="https://micampusvirtual.usbcali.edu.co/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple.js"&gt;&lt;/script&gt;<br/>
+   &lt;script src="https://micampusvirtual.usbcali.edu.co/lib/javascript.php/1718247623/lib/javascript-static.js"&gt;&lt;/script&gt;<br/>
+   &lt;script&gt;<br/>
+//&lt;![CDATA[<br/>
+document.body.className += ' jsenabled';<br/>
+//]]&gt;<br/>
+&lt;/script&gt;<br/>
+   &lt;script type="text/javascript" src="https://micampusvirtual.usbcali.edu.co/local/edutrends/script.php"&gt;&lt;/script&gt;<br/>
+   &lt;div id="page" class="container-fluid mt-0"&gt;<br/>
+    &lt;div id="page-content" class="row"&gt;<br/>
+     &lt;div id="region-main-box" class="col-12"&gt;<br/>
+      &lt;section id="region-main" class="col-12 h-100" aria-label="Contenido"&gt;<br/>
+       &lt;span id="user-notifications"&gt;&lt;/span&gt;<br/>
+       &lt;div class="login-wrapper"&gt;<br/>
+        &lt;div class="login-container"&gt;<br/>
+         &lt;div role="main"&gt;<br/>
+          &lt;span id="maincontent"&gt;&lt;/span&gt;<br/>
+          &lt;div class="loginform row "&gt;<br/>
+           &lt;div class="col"&gt;<br/>
+            &lt;div id="loginlogo" class="login-logo"&gt;&lt;img id="logoimage" src="//micampusvirtual.usbcali.edu.co/pluginfile.php/1/theme_moove/logo/1718247622/logo-usb-y-micampus-color.png" class="img-fluid" alt="MiCampusVirtual"&gt;<br/>
+             &lt;h1 class="login-heading sr-only"&gt;Entrar a MiCampusVirtual&lt;/h1&gt;<br/>
+            &lt;/div&gt;<br/>
+            &lt;form class="login-form" action="https://micampusvirtual.usbcali.edu.co/login/index.php" method="post" id="login"&gt;&lt;input type="hidden" name="logintoken" value="YaqM7VAuiLY5aUjF5ViIrLe2FWZhgo10"&gt;<br/>
+             &lt;div class="login-form-username form-group"&gt;&lt;label for="username" class="sr-only"&gt; Nombre de usuario &lt;/label&gt; &lt;input type="text" name="username" id="username" class="form-control form-control-lg" value="" placeholder="Nombre de usuario" autocomplete="username"&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div class="login-form-password form-group"&gt;&lt;label for="password" class="sr-only"&gt;Contraseña&lt;/label&gt; &lt;input type="password" name="password" id="password" value="" class="form-control form-control-lg" placeholder="Contraseña" autocomplete="current-password"&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div class="login-form-submit form-group"&gt;&lt;button class="btn btn-primary btn-block btn-lg" type="submit" id="loginbtn"&gt;Acceder&lt;/button&gt;<br/>
+             &lt;/div&gt;<br/>
+             &lt;div class="login-form-forgotpassword form-group text-center"&gt;&lt;a href="https://micampusvirtual.usbcali.edu.co/login/forgot_password.php"&gt;¿Olvidó su contraseña?&lt;/a&gt;<br/>
+             &lt;/div&gt;<br/>
+            &lt;/form&gt;<br/>
+            &lt;form action="https://micampusvirtual.usbcali.edu.co/login/index.php" method="post" id="guestlogin" class="mt-2"&gt;&lt;input type="hidden" name="logintoken" value="YaqM7VAuiLY5aUjF5ViIrLe2FWZhgo10"&gt; &lt;input type="hidden" name="username" value="guest"&gt; &lt;input type="hidden" name="password" value="guest"&gt; &lt;button class="btn btn-secondary btn-block" type="submit"&gt;Entrar como persona invitada&lt;/button&gt;<br/>
+            &lt;/form&gt;<br/>
+            &lt;div class="d-flex mt-2"&gt;<br/>
+             &lt;div class="login-languagemenu"&gt;<br/>
+              &lt;div class="action-menu moodle-actionmenu" id="action-menu-0" data-enhance="moodle-core-actionmenu"&gt;<br/>
+               &lt;div class="menubar d-flex " id="action-menu-0-menubar"&gt;<br/>
+                &lt;div class="action-menu-trigger"&gt;<br/>
+                 &lt;div class="dropdown"&gt;&lt;a href="#" tabindex="0" class=" dropdown-toggle icon-no-margin" id="action-menu-toggle-0" aria-label="Español - Internacional ‎(es)‎" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-0-menu"&gt; Español - Internacional ‎(es)‎ &lt;b class="caret"&gt;&lt;/b&gt; &lt;/a&gt;<br/>
+                  &lt;div class="dropdown-menu menu dropdown-menu-right" id="action-menu-0-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-0" role="menu"&gt;&lt;a href="https://micampusvirtual.usbcali.edu.co/login/index.php?lang=de" class="dropdown-item menu-action" data-lang="de" lang="de" role="menuitem" tabindex="-1" aria-labelledby="actionmenuaction-1"&gt; &lt;span class="menu-action-text" id="actionmenuaction-1"&gt;Deutsch ‎(de)‎&lt;/span&gt; &lt;/a&gt; &lt;a href="https://micampusvirtual.usbcali.edu.co/login/index.php?lang=en" class="dropdown-item menu-action" data-lang="en" lang="en" role="menuitem" tabindex="-1" aria-labelledby="actionmenuaction-2"&gt; &lt;span class="menu-action-text" id="actionmenuaction-2"&gt;English ‎(en)‎&lt;/span&gt; &lt;/a&gt; &lt;a href="#" class="dropdown-item menu-action" role="menuitem" tabindex="-1" aria-labelledby="actionmenuaction-3"&gt; &lt;span class="menu-action-text" id="actionmenuaction-3"&gt;Español - Internacional ‎(es)‎&lt;/span&gt; &lt;/a&gt; &lt;a href="https://micampusvirtual.usbcali.edu.co/login/index.php?lang=es_mx" class="dropdown-item menu-action" data-lang="es_mx" lang="es_mx" role="menuitem" tabindex="-1" aria-labelledby="actionmenuaction-4"&gt; &lt;span class="menu-action-text" id="actionmenuaction-4"&gt;Español - México ‎(es_mx)‎&lt;/span&gt; &lt;/a&gt; &lt;a href="https://micampusvirtual.usbcali.edu.co/login/index.php?lang=fr" class="dropdown-item menu-action" data-lang="fr" lang="fr" role="menuitem" tabindex="-1" aria-labelledby="actionmenuaction-5"&gt; &lt;span class="menu-action-text" id="actionmenuaction-5"&gt;Français ‎(fr)‎&lt;/span&gt; &lt;/a&gt; &lt;a href="https://micampusvirtual.usbcali.edu.co/login/index.php?lang=it" class="dropdown-item menu-action" data-lang="it" lang="it" role="menuitem" tabindex="-1" aria-labelledby="actionmenuaction-6"&gt; &lt;span class="menu-action-text" id="actionmenuaction-6"&gt;Italiano ‎(it)‎&lt;/span&gt; &lt;/a&gt; &lt;a href="https://micampusvirtual.usbcali.edu.co/login/index.php?lang=pt_br" class="dropdown-item menu-action" data-lang="pt_br" lang="pt_br" role="menuitem" tabindex="-1" aria-labelledby="actionmenuaction-7"&gt; &lt;span class="menu-action-text" id="actionmenuaction-7"&gt;Português - Brasil ‎(pt_br)‎&lt;/span&gt; &lt;/a&gt;<br/>
+                  &lt;/div&gt;<br/>
+                 &lt;/div&gt;<br/>
+                &lt;/div&gt;<br/>
+               &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+             &lt;/div&gt;&lt;button type="button" class="ml-auto btn btn-link" data-modal="alert" data-modal-title-str="[&quot;cookiesenabled&quot;, &quot;core&quot;]" data-modal-content-str="[&quot;cookiesenabled_help_html&quot;, &quot;core&quot;]"&gt;&lt;i class="fa fa-question-circle"&gt;&lt;/i&gt; Aviso de Cookies&lt;/button&gt;<br/>
+            &lt;/div&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/section&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+   &lt;/div&gt;<br/>
+  &lt;/div&gt;<br/>
+  &lt;div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""&gt;&lt;/div&gt;<br/>
+  &lt;div class="d-none"&gt;<br/>
+   &lt;div class="tool_dataprivacy"&gt;<br/>
+    &lt;a href="https://micampusvirtual.usbcali.edu.co/admin/tool/dataprivacy/summary.php"&gt;Resumen de retención de datos&lt;/a&gt;<br/>
+   &lt;/div&gt;&lt;a href="https://download.moodle.org/mobile?version=2022041905.04&amp;lang=es&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile"&gt;Descargar la app para dispositivos móviles&lt;/a&gt; &lt;!-- USB  --&gt;<br/>
+   &lt;div style="position: fixed; bottom: 10px; right: 10px;"&gt;&lt;a style="background-color: #0076b7; border:none; border-radius: 20px; color:white; display:block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; padding: 10px 20px; text-decoration: none;" href="http://soporte.usbcalivirtual.co/soporte-usb.php" target="_blank"&gt; &lt;span style="display: inline-block; fill: white; margin-right: 5px; vertical-align: middle; width: 18px;"&gt;<br/>
+      &lt;svg x="0" y="0" viewbox="0 0 15 16" xml:space="preserve" aria-hidden="true"&gt;<br/>
+       &lt;path d="M1.3,16c-0.7,0-1.1-0.3-1.2-0.8c-0.3-0.8,0.5-1.3,0.8-1.5c0.6-0.4,0.9-0.7,1-1c0-0.2-0.1-0.4-0.3-0.7c0,0,0-0.1-0.1-0.1 C0.5,10.6,0,9,0,7.4C0,3.3,3.4,0,7.5,0C11.6,0,15,3.3,15,7.4s-3.4,7.4-7.5,7.4c-0.5,0-1-0.1-1.5-0.2C3.4,15.9,1.5,16,1.5,16 C1.4,16,1.4,16,1.3,16z M3.3,10.9c0.5,0.7,0.7,1.5,0.6,2.2c0,0.1-0.1,0.3-0.1,0.4c0.5-0.2,1-0.4,1.6-0.7c0.2-0.1,0.4-0.2,0.6-0.1 c0,0,0.1,0,0.1,0c0.4,0.1,0.9,0.2,1.4,0.2c3,0,5.5-2.4,5.5-5.4S10.5,2,7.5,2C4.5,2,2,4.4,2,7.4c0,1.2,0.4,2.4,1.2,3.3 C3.2,10.8,3.3,10.8,3.3,10.9z"&gt;&lt;/path&gt;<br/>
+      &lt;/svg&gt;&lt;/span&gt; Soporte&lt;/a&gt;<br/>
+   &lt;/div&gt;&lt;!-- /USB  --&gt;<br/>
+   &lt;script&gt;<br/>
+//&lt;![CDATA[<br/>
+var require = {<br/>
+    baseUrl : 'https://micampusvirtual.usbcali.edu.co/lib/requirejs.php/1718247623/',<br/>
+    // We only support AMD modules with an explicit define() statement.<br/>
+    enforceDefine: true,<br/>
+    skipDataMain: true,<br/>
+    waitSeconds : 0,<br/>
+<br/>
+    paths: {<br/>
+        jquery: 'https://micampusvirtual.usbcali.edu.co/lib/javascript.php/1718247623/lib/jquery/jquery-3.6.0.min',<br/>
+        jqueryui: 'https://micampusvirtual.usbcali.edu.co/lib/javascript.php/1718247623/lib/jquery/ui-1.13.0/jquery-ui.min',<br/>
+        jqueryprivate: 'https://micampusvirtual.usbcali.edu.co/lib/javascript.php/1718247623/lib/requirejs/jquery-private'<br/>
+    },<br/>
+<br/>
+    // Custom jquery config map.<br/>
+    map: {<br/>
+      // '*' means all modules will get 'jqueryprivate'<br/>
+      // for their 'jquery' dependency.<br/>
+      '*': { jquery: 'jqueryprivate' },<br/>
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).<br/>
+      '*': { process: 'core/first' },<br/>
+<br/>
+      // 'jquery-private' wants the real jQuery module<br/>
+      // though. If this line was not here, there would<br/>
+      // be an unresolvable cyclic dependency.<br/>
+      jqueryprivate: { jquery: 'jquery' }<br/>
+    }<br/>
+};<br/>
+<br/>
+//]]&gt;<br/>
+&lt;/script&gt;<br/>
+   &lt;script src="https://micampusvirtual.usbcali.edu.co/lib/javascript.php/1718247623/lib/requirejs/require.min.js"&gt;&lt;/script&gt;<br/>
+   &lt;script&gt;<br/>
+//&lt;![CDATA[<br/>
+M.util.js_pending("core/first");<br/>
+require(['core/first'], function() {<br/>
+require(['core/prefetch'])<br/>
+;<br/>
+require(["media_videojs/loader"], function(loader) {<br/>
+    loader.setUp('es');<br/>
+});;<br/>
+<br/>
+    M.util.js_pending('theme_boost/loader');<br/>
+    require(['theme_boost/loader'], function() {<br/>
+      M.util.js_complete('theme_boost/loader');<br/>
+    });<br/>
+;<br/>
+<br/>
+            var userNameField = document.getElementById('username');<br/>
+            if (userNameField.value.length == 0) {<br/>
+                userNameField.focus();<br/>
+            } else {<br/>
+                document.getElementById('password').focus();<br/>
+            }<br/>
+;<br/>
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(1, []); M.util.js_complete('core/notification');});;<br/>
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"trace"}); M.util.js_complete('core/log');});;<br/>
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;<br/>
+M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});<br/>
+    M.util.js_complete("core/first");<br/>
+});<br/>
+//]]&gt;<br/>
+&lt;/script&gt;<br/>
+   &lt;script&gt;<br/>
+//&lt;![CDATA[<br/>
+M.str = {"moodle":{"lastmodified":"\u00daltima modificaci\u00f3n","name":"Nombre","error":"Error","info":"Informaci\u00f3n","yes":"S\u00ed","no":"No","cancel":"Cancelar","confirm":"Confirmar","areyousure":"\u00bfEst\u00e1 seguro?","closebuttontitle":"Cerrar","unknownerror":"Error desconocido","file":"Archivo","url":"URL","collapseall":"Colapsar todo","expandall":"Expandir todo"},"repository":{"type":"Tipo","size":"Tama\u00f1o","invalidjson":"Cadena JSON no v\u00e1lida","nofilesattached":"No se han adjuntado archivos","filepicker":"Selector de archivos","logout":"Salir","nofilesavailable":"No hay archivos disponibles","norepositoriesavailable":"Lo sentimos, ninguno de sus repositorios actuales puede devolver archivos en el formato solicitado.","fileexistsdialogheader":"El archivo existe","fileexistsdialog_editor":"Un archivo con ese nombre ha sido anexado al texto que Usted est\u00e1 editando","fileexistsdialog_filemanager":"Ya ha sido anexado un archivo con ese nombre","renameto":"Cambiar el nombre a \"{$a}\"","referencesexist":"Existen {$a} enlaces a este archivo","select":"Seleccionar"},"admin":{"confirmdeletecomments":"Est\u00e1 a punto de eliminar comentarios, \u00bfest\u00e1 seguro?","confirmation":"Confirmaci\u00f3n"},"debug":{"debuginfo":"Informaci\u00f3n de depuraci\u00f3n","line":"L\u00ednea","stacktrace":"Trazado de la pila (stack)"},"langconfig":{"labelsep":":"}};<br/>
+//]]&gt;<br/>
+&lt;/script&gt;<br/>
+   &lt;script&gt;<br/>
+//&lt;![CDATA[<br/>
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"es"});<br/>
+});<br/>
+document.querySelector("body").addEventListener("click", function(e) {var anchor = e.target.closest("a"); if(anchor !== null) { anchor.setAttribute("target", "_self"); } });<br/>
+M.util.help_popups.setup(Y);<br/>
+ M.util.js_pending('random666b8666a937e10'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random666b8666a937e10'); });<br/>
+})();<br/>
+//]]&gt;<br/>
+&lt;/script&gt;<br/>
+  &lt;/div&gt;<br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>
